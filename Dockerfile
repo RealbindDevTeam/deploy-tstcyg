@@ -1,8 +1,7 @@
 # Aplicacion basada en Node.js Version 8.8.1
 FROM node:8.9.3
 # Actualiza el paquete curl (Evita problemas de seguridad)
-RUN apt-get update && apt-get install -y \
-    curl \
+RUN apt-get update && apt-get install -y curl
 # Setea el directorio de trabajo a /app
 WORKDIR /app
 # Copiar el compilado del proyecto a /app
