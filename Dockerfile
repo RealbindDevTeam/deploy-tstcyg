@@ -1,7 +1,11 @@
 # Aplicacion basada en Node.js Version 8.8.1
 FROM node:8.9.3
-# Actualiza el paquete curl (Evita problemas de seguridad)
-RUN apt-get update && apt-get install -y curl
+# Actualiza paquetes (Evita problemas de seguridad en IBM Cloud)
+RUN apt-get update && apt-get install -y \
+    curl \
+    gcc-4.9 \
+    libxml2 \ 
+    sensible-utils
 # Setea el directorio de trabajo a /app
 WORKDIR /app
 # Copiar el compilado del proyecto a /app
