@@ -8,7 +8,7 @@
     "HELLO": "Hola",
     "IMAGE": "Imagen",
     "MODIFICATION_DATE": "Fecha de modificación",
-    "NAME": "Nombre",
+    "NAME": "Nombres y Apellidos",
     "PASSWORD": "Contraseña",
     "PRICING": "Precio",
     "STATE": "Estado",
@@ -143,8 +143,8 @@
         "USER_NO_ACTIVE": "Tu usuario no se encuentra activo. Por favor contacta al administrador",
         "RESTAURANT_NO_ACTIVE": "El restaurante no se encuentra activo. Por favor contacta al administrador",
         "DONT_ACCOUNT": "No tienes cuenta administrador?",
-        "DOWNLOAD_APP":"Descarga comeygana",
-        "DOWNLOAD_APP_P":" Gratis en la play store y apple store"
+        "DOWNLOAD_APP": "Descarga comeygana",
+        "DOWNLOAD_APP_P": " Gratis en la play store y apple store"
     },
     "RESET_PASWORD": {
         "TITLE": "Cambiar contraseña",
@@ -401,7 +401,11 @@
         "CREATION_ERROR": "Se ha presentado un error creando el restaurante. Por favor intenta nuevamente.",
         "RESTAURANT_CREATED": "Restaurante Creado",
         "POINTS_VALIDITY": "Selecciona la vigencia de los puntos de recompensa",
-        "DAYS": "Días"
+        "DAYS": "Días",
+        "DIALOG_SENTENCE_1A": "A partir de la creación del restaurante vas a tener una bolsa de ",
+        "DIALOG_SENTENCE_1B": "puntos comeygama ",
+        "DIALOG_SENTENCE_2": "Los puntos se restan de la bolsa cada vez que un consumidor redime una recompensa",
+        "DIALOG_SENTENCE_3": "Estas seguro que deseas crear el restaurante?"
     },
     "WEEK": {
         "MONDAY": "Lunes",
@@ -1372,8 +1376,6 @@
         "ORDERS_DAY": "Ordenes del día",
         "ORDERS_DAY_TEXT": "Por medio del rol cajero, podrás ver la información detallada de las ordenes que se han realizado en tu restaurante, y así poder identificar lo consumido por cada cliente y las recompensas que ha redimido",
         "COPYRIGHT": "Todos los derechos reservados"
-
-
     },
     "ADMIN_DASHBOARD": {
         "TITLE": "Te damos la bienvenida a comeygana",
@@ -1825,5 +1827,11 @@
         "SANDWICHES": "Sándwiches",
         "SUSHI": "Sushi",
         "VEGANISM": "Veganismo"
+    },
+    "BAG_PLAN": {
+        "FREE": "GRATIS",
+        "SMALL": "NORMAL",
+        "MEDIUM": "EJECUTIVA",
+        "LARGE": "A LA CARTA"
     }
 }
