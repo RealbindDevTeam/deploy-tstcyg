@@ -1,5 +1,5 @@
-# Aplicacion basada en Node.js Version 8.8.1
-FROM node:8.9.3
+# Aplicacion basada en Node.js Version 8.9.4
+FROM node:8.9.4
 # Actualiza paquetes (Evita problemas de seguridad en IBM Cloud)
 RUN apt-get update && apt-get install -y \
     curl \
